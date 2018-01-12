@@ -1,6 +1,6 @@
-# ucsb-cs8-sp17.github.io
+# ucsb-cs64-w18.github.io
 
-Website: http://ucsb-cs8-sp17-zm.github.io
+Website: http://ucsb-cs64-w18.github.io
 
 To test locally:
 * One time setup:
