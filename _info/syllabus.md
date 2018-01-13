@@ -16,8 +16,8 @@ Office: SSMS 4409<br/><br/>
 
 * **Piazza Site**: [piazza.com/ucsb/winter2018/cs64](https://www.piazza.com/ucsb/winter2018/cs64){: target="_blank"}<br/>
 * **TAs and their Office Hours**:<br/>
-Jinjin Shao <jinjin_shao@umail.ucsb.edu> TBD
-Bay-Yuan Hsu <bhsu@umail.ucsb.edu> TBD
+Jinjin Shao <jinjin_shao@umail.ucsb.edu> TBD. <br/>
+Bay-Yuan Hsu <bhsu@umail.ucsb.edu> TBD. <br/>
 Mahnaz Koupaee (Grader) <koupaee@umail.ucsb.edu> <br/>
 
 * **Lab**: (50 minute sections)<br/>
