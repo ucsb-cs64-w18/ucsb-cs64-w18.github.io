@@ -2,7 +2,7 @@
 layout: lab
 num: lab01
 ready: false
-desc: "TBD"
+desc: "CSIL Logistics and Binary Representation"
 assigned: 2018-01-16 08:00:00.00-7
 due: 2018-01-19 23:59:59.00-7
 ---
@@ -22,8 +22,8 @@ due: 2018-01-19 23:59:59.00-7
 </ul>
 <b>Provided files:</b>
 <ul>
-  <li><a href="~zmatni/public_html/cs64w18/labs/1/lab1problems.txt"><code>lab1problems.txt</code></a></li>
-  <li><a href="~zmatni/public_html/cs64w18/labs/1/partner.txt"><code>partner.txt</code></a></li>
+  <li><a href="lab1problems.txt"><code>lab1problems.txt</code></a></li>
+  <li><a href="partner.txt"><code>partner.txt</code></a></li>
 </ul>
 <hr>
 <h1>Step by Step Instructions</h1>

@@ -1,4 +1,4 @@
-Lab 1 problems: Data representation and bitwise operations
+Lab 1 problems: Data representation and Binary Representation
 
 Remember to solve these individually, working with your partner only when
 you get stuck, and seeking help from the TA only when you are both stuck.
@@ -145,7 +145,7 @@ to indicate that the number is in hexadecimal.  For example:
 
 ---Bit Positions---
 
-Remember that we number bit positions from right to left,  starting with 0.
+Remember that we number bit positions from right to left, starting with 0.
 For example:
 
 24.) The rightmost bit of an 8-bit number is in what position?
@@ -169,73 +169,14 @@ For example:
 28.answer)
 
 
-
----Bit-Level Properties---
-
-29.) Shifting an unsigned binary number N one position to the left
-     is equivalent to multipling N by what (in decimal)?
-29.answer)
-2
-
-30.) Shifting an unsigned binary number N one position to the right
-     is equivalent to performing truncating division (ignoring the
-     remainder) by what (in decimal)?
-30.answer)     
-2
-
-31.) What is the decimal result of shifting the unsigned binary
-     number '0001' one position to the right?
-31.answer)
-
-
-32.) Shifting an unsigned binary number N three positions to the left
-     is equivalent to multipling N by what (in decimal)?
-32.answer)
-
-
-33.) Shifting an unsigned binary number N four positions to the right
-     is equivalent to performing truncating division (ignoring the
-     remainder) by what (in decimal)?
-33.answer)     
-
-
-34.) For ANY unsigned binary number, which bit must you look at in order
-     to determine if the number is odd or even?  Write your answer as
-     an integer, starting from 0 (0 for bit 0, 1 for bit 1, and so on).
-34.answer)
-
-
-
----Converting Negative decimal to Binary---
-
-For all the below problems, your answers should have 8 bits,
-and be in twos complement.  For example:
-
-35.) What is -1 in binary?
-35.answer)
-11111111
-
-36.) What is -3 in binary?
-36.answer)
-
-
-37.) What is -64 in binary?
-37.answer)
-
-
-38.) What is -9 in binary?
-38.answer)
-
-
-
 ---Terminology---
 
 You may need to use Google for these terms.
 
-39.) How many bits are in a byte?
-39.answer)
+29.) How many bits are in a byte?
+29.answer)
 
 
-40.) How many bits are in a nibble?
-40.answer)
+30.) How many bits are in a nibble?
+30.answer)
 
