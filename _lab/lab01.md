@@ -14,7 +14,7 @@ due: 2018-01-19 23:59:59.00-7
 <p>By the time you have completed this work, you should be able to:</p>
 <ul>
   <li>Have your CSIL account requested or received</li>
-  <li>Monitor class announcements with <a href="http://www.piazza.com/ucsb/winter2017/cs64" target="_blank">Piazza</a></li>
+  <li>Monitor class announcements with <a href="http://www.piazza.com/ucsb/winter2018/cs64" target="_blank">Piazza</a></li>
   <li>Review Unix commands necessary for this course</li>
   <li>Learn how to get and edit files related to your assignments</li>
   <li>Practice bitwise operations on binary numbers</li>
@@ -25,7 +25,7 @@ due: 2018-01-19 23:59:59.00-7
   <li><a href="lab1problems.txt"><code>lab1problems.txt</code></a></li>
   <li><a href="partner.txt"><code>partner.txt</code></a></li>
 </ul>
- <hr>
+<hr>
 <h1>Step by Step Instructions</h1>
 
 <h2>Step 1: Log Into a Computer</h2>
