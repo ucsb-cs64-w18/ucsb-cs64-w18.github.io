@@ -4,6 +4,7 @@ title: CS64, Winter 2018, zmatni
 
 # {{site.course}}, {{site.quarter}}
 
+<!-- comment -->
 
 <div id="info" data-role="collapsible" data-collapsed="false">
 <h2>Course Information</h2>
@@ -19,10 +20,12 @@ title: CS64, Winter 2018, zmatni
 {% include lecnot_table.html %}
 </div>
 
+<!--
 <div data-role="collapsible" data-collapsed="false">
 <h2 id="simplifiedhw">Homework:</h2>
 {% include simplifiedhw_table.html %}
 </div>
+-->
 
 <div data-role="collapsible" data-collapsed="false">
 <h2 id="labs">Labs:</h2>
