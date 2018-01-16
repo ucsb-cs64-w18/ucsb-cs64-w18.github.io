@@ -36,7 +36,7 @@ If you are unable to log in, make sure you join someone whose works.
 
 <h2>Step 2: Sign up for Piazza (If You Have Not Already)</h2>
 <p>
-  Click <a href="http://www.piazza.com/ucsb/winter2017/cs64">this link</a> to sign up.
+  Click <a href="http://www.piazza.com/ucsb/winter2018/cs64">this link</a> to sign up.
   All course announcements will be through Piazza, so it is very important that you sign up!
 </p>
     
@@ -75,9 +75,9 @@ pwd
   Perhaps the simplest thing to do is to copy the file directly from the website, like so:
 </p>
 <pre>
-cp ~zmatni/public_html/cs64w17/labs/1/lab1problems.txt ~zmatni/public_html/cs64/labs/1/partner.txt .
+cp ~zmatni/public_html/cs64w18/labs/1/lab1problems.txt ~zmatni/public_html/cs64w18/labs/1/partner.txt .
 </pre>
-<p>Note the use of the trailing <code>.</code> in the above command, which stipulates that the specified files (<code>~zmatni/public_html/cs64w17/labs/1/lab1problems.txt</code> and <code>~zmatni/public_html/cs64w17/labs/1/partner.txt</code>) should be copied into the current directory.</p>
+<p>Note the use of the trailing <code>.</code> in the above command, which stipulates that the specified files (<code>~zmatni/public_html/cs64w18/labs/1/lab1problems.txt</code> and <code>~zmatni/public_html/cs64w18/labs/1/partner.txt</code>) should be copied into the current directory.</p>
 
 <h2>Step 5: Change the File Permissions Appropriately</h2>
 <p>
@@ -144,6 +144,6 @@ turnin lab1@cs64 lab1problems.txt partner.txt
 </p>
 
 <hr>
- <p>Copyright 2018, Ziad Matni, CS Dept, UC Santa Barbara. Permission to copy
-  for non-commercial, non-profit, educational purposes granted, provided appropriate
+ <p>Copyright 2018, Ziad Matni, CS Dept, UC Santa Barbara. Parts of this lab were created by Kyle Dewey at UCSB.
+ Permission to copy for non-commercial, non-profit, educational purposes granted, provided appropriate
   credit is given; all other rights reserved.</p>
