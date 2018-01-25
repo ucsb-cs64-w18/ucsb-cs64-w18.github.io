@@ -396,5 +396,8 @@ turnin lab2@cs64 lab2problems.txt RandomCode.c DecodeCode.c spimtutorial.txt par
 
 <hr>
 <blockquote>
-<p><font size="1">Prepared for Computer Science 64 by Diana Franklin, with slight adaptation by Kyle Dewey and Ziad Matni.</font></p>
+<p><font size="1">
+Copyright 2018, Ziad Matni, CS Dept, UC Santa Barbara. Adapted from work by Diana Franklin and Kyle Dewey. Permission to copy for non-commercial, non-profit, educational purposes granted, provided appropriate credit is given;  all other rights reserved
+</font></p>
+
 </blockquote>
