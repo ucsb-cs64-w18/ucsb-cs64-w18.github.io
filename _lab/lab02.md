@@ -6,12 +6,6 @@ desc: "Binary Arithmetic, Bitwise Operators, and MIPS"
 assigned: 2018-01-24 08:00:00.00-7
 due: 2018-01-29 23:59:59.00-7
 ---
-<html>
-
-  <head>
-    <title>Lab 2: Binary Arithmetic, Bitwise Operators, and MIPS</title>
-  </head>
-
     <h1>Lab 2: Binary Arithmetic, Bitwise Operators, and MIPS</h1>
     <hr>
     <p>Due Monday, January 29 at 11:59:59 PM</p>
@@ -38,7 +32,6 @@ due: 2018-01-29 23:59:59.00-7
       <li><a href="DecodeCode.c"><code>DecodeCode.c</code></a></li>
       <li><a href="DecodeMain.c"><code>DecodeMain.c</code></a></li>
       <li><a href="DecodeCodeTester.c"><code>DecodeCodeTester.c</code></a></li>
-      <li><a href="http://spimsimulator.sourceforge.net/"><code>QtSpim</code></a></li>
       <li><a href="spimtutorial.txt"><code>spimtutorial.txt</code></a></li>
       <li><a href="mipsdemo.asm"><code>mipsdemo.asm</code></a></li>
       <li><a href="partner.txt"><code>partner.txt</code></a></li>
