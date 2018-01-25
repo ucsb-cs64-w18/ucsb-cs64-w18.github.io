@@ -396,5 +396,5 @@ turnin lab2@cs64 lab2problems.txt RandomCode.c DecodeCode.c spimtutorial.txt par
 
 <hr>
 <blockquote>
- <p>Prepared for Computer Science 64 by Diana Franklin, with slight adaptation by Kyle Dewey and Ziad Matni.</p>
+<p><font size="4">Prepared for Computer Science 64 by Diana Franklin, with slight adaptation by Kyle Dewey and Ziad Matni.</font></p>
 </blockquote>
