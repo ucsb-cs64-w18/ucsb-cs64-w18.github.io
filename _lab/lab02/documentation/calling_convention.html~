@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>MIPS Calling Convention for CS64</title>
+  </head>
+
+  <body>
+    <h1>MIPS Calling Convention for CS64</h1>
+    <h2>Preface</h2>
+    <p>
+      This document discusses the <i>calling convention</i> which we will be using in CS64, which defines the protocol used for calling functions and returning from functions.
+      Many different such calling conventions exist, and this document merely describes one of them.
+      For those interested, this document's calling convention is based off of the calling convention <a href="https://courses.cs.washington.edu/courses/cse410/09sp/examples/MIPSCallingConventionsSummary.pdf">here</a>.
+    </p>
+    <p>
+      Relative to other calling conventions, the calling convention in this document is simplified.
+      Specifically, this calling convention:
+    </p>
+    <ul>
+      <li>Does not utilize the <code>$fp</code> and <code>$gp</code> registers, which other conventions use to manage things like global variables and stack-allocated arrays</li>
+      <li>
+        Assumes that functions take no more than four arguments.
+        Other calling conventions handle this by putting additional arguments on the stack before calls.
+        This inherently makes things more complex, especially in circumstances when different functions which push additional arguments on the stack may be called.
+        For the purposes of this class, this restriction is ok, as we will never have a case of a function taking more than four arguments.
+      </li>
+      <li>
+        Assumes that functions return no more than two values.
+        Similar to the problem with arguments, other calling conventions will handle this by putting additional values on the stack when they return.
+        This makes things more complex, particularly when different functions are in play which return different things.
+      </li>
+      <li>
+        Assumes that individual values allocated on the stack are always 32 bits in length.
+        This means that we will never deal with stack-allocated arrays or C <code>struct</code>s.
+        Such allocations can be handled without changing any of the rules described in this document, but they have intentionally been omitted to keep things simple and streamlined.
+    </ul>
+    <p>
+      In addition, relative to some of the calling conventions out there, this one is somewhat optimized, particularly when it comes to memory usage.
+      This is intentionally done to reduce boilerplate code that always needs to be written, and to help keep code focused on the task at hand as opposed to bookkeeping activities.
+      This calling convention is optimized in the following ways:
+    </p>
+    <ul>
+      <li>
+        When it comes to preserved registers, we explicitly preserve only those registers we use.
+        This not only reduces the amount of code necessary, it overall simplifies code, and it makes function calls more memory-efficient.
+      </li>
+      <li>
+        We do not allocate extra space in order to ensure that stack allocations are always in uniform-looking blocks.
+        With respect to how this calling convention works, there is no requirement that stack allocations be of certain sizes, and so we don't enforce anything here.
+        This saves on memory, and tends to make programs easier to reason about, as less memory is in play.
+      </li>
+    </ul>
+  </body>
+</html>
