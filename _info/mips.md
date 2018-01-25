@@ -5,6 +5,8 @@ ready: true
 pdfurl: /info/MIPS_reference_card.pdf
 redirect_to: /info/MIPS_reference_card.pdf
 ---
+Redirect = /info/MIPS_reference_card.pdf
+Redirect = "/info/MIPS_reference_card.pdf"
 
 
 
