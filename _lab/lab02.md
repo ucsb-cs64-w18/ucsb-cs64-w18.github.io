@@ -53,10 +53,9 @@ due: 2018-01-29 23:59:59.00-7
 </p>
 
 <ul>
- <li>Task 1: <a href="index.html#addition">Binary Addition and Bit-Level Operations</a></li>
- <li>Task 2: <a href="index.html#random">Bitwise Operations in C</a></li>
- <li>Task 3: <a href="index.html#spimtutorial">QtSpim Tutorial</a></li>
- <li>Task 4: <a href="index.html#MIPSprogram">First MIPS Program</a></li>
+ <li>Task 1: Binary Addition and Bit-Level Operations</a></li>
+ <li>Task 2: Bitwise Operations in C</a></li>
+ <li>Task 3: QtSpim Tutorial</a></li>
 </ul>
 
 <p>
@@ -74,7 +73,7 @@ cd cs64
 mkdir lab2
 </pre>
 <p>Then go into that directory.</p>
-<p>Now copy over all of the files necessary for this week's tasks:</p>
+<p>Now copy over all of the files necessary for this week's tasks: '</p>
 <pre>
 cp ~zmatni/public_html/cs64w18/labs/2/*.txt ~zmatni/public_html/cs64w18/labs/2/*.h ~zmatni/public_html/cs64w18/labs/2/*.c ~zmatni/public_html/cs64w18/labs/2/mipsdemo.asm ~zmatni/public_html/cs64w18/labs/2/partner.txt ~zmatni/public_html/cs64w18/resources/QtSpim .
 </pre>      
@@ -91,7 +90,7 @@ cp ~zmatni/public_html/cs64w18/labs/2/*.txt ~zmatni/public_html/cs64w18/labs/2/*
 
 <h2><a id="addition">Task 1: Binary Addition and Bit-Level Operations</a></h2>
 <p>This task entails answering a series of questions focused on bit-level operations.</p>
-<p>Open the file <a href="lab2problems.txt">lab2problems.txt</a> using an editor and answer the questions, just as with <a href="../1/">Lab 1</a>.</p>
+<p>Open the file <a href="lab2problems.txt">lab2problems.txt</a> using an editor and answer the questions, just as with Lab 1.</p>
 
 <h2><a id="random">Task 2: Bitwise Operations in C/C++</a></h2>
 <p>
@@ -241,7 +240,7 @@ gcc DecodeCode.c DecodeMain.c
 <pre>
 gcc Decode*.c
 </pre>
-<p>Now you're ready to fill in the code!  Edit <code>DecodeCode.c</code>.</p>
+<p>Now you are ready to fill in the code!  Edit <code>DecodeCode.c</code>.</p>
 <p>
  Remember that you are only allowed to use bitwise operations to extract bits.
  You may not use multiplication or division.
@@ -259,14 +258,14 @@ gcc Decode*.c
 <p>
  You are now ready for MIPS!
  We will use a simulator <a href="http://spimsimulator.sourceforge.net/"><code>QtSpim</code></a> to run our MIPS programs in this class.
+
  For this task, you will need to fill out the <a href="spimtutorial.txt"><code>spimtutorial.txt</code></a> questions.
  You may want to take a look at these questions before you start running the simulator, just to get a handle on exactly what it is you will need to learn.
 </p>
 
 <h3>Step 1: Get QtSpim</h3>
 <p>
- Assuming you are on one of the lab machines, then you will need to copy over QtSpim from <code>csil</code>.
- This can be done as shown below, substituting <code>username</code> with your username:
+ Assuming you are on one of the lab machines, then you might need to copy over QtSpim from <code>csil</code>. Check this out first and see if you can run QtSpim from the lab machine. Otherwise, to copy it over, do what is shown below, but substitute <code>username</code> with your username:
 </p>
 <pre>
 scp username@csil-01.cs.ucsb.edu:/usr/bin/QtSpim .
@@ -366,93 +365,6 @@ jal 0x00400024 [main]
  </li>
 </ul>
 
-<h2><a id="MIPSprogram">Task 4: First MIPS Program</a></h2>
-<p>
- The purpose of this task is to gain more familiarity with QtSpim, and to get used to programming in assembly.
- For this task, you will write code that performs a series of numeric transformations on some input number.
- An example session follows, where the user typed in <code>805</code> after the program prompted &ldquo;<code>What are the first 3 digits of your phone number? </code>&rdquo;.
- Other than the initial input <code>805</code> which is on the same line as the prompt, all text was produced by the program.
-</p>
-<pre>
-What are the first 3 digits of your phone number? 805
-805
-Add it to itself
-1610
-Multiply by 80
-128800
-Add 450
-129250
-Divide by 5
-25850
-Subtract 10
-25840
-Divide by 4
-6460
-Subtract 20
-6440
-Divide by 8
-805
-</pre>
-
-<p>
- Write a program in MIPS assembly that performs the above numeric transformations, and describes it to the user in the same way as the session above.
- You may assume that the user will input a valid non-negative three-digit number that will not entail a division by zero with respect to the numeric transformations.
- For full credit, your program <b>must</b> produce the <b>exact same output</b>, including prompts.
- For this reason, we recommend copying and pasting the above prompts into your code rather than trying to retype them, so as to avoid any typos.
-</p>
-<p>Save your code in a file called <code>MagicMathTricks.asm</code>.</p>
-<p>
- We have repeated the operations you need to perform below, and annotated where you should use bitwise operations as opposed to performing division directly.
- In these operations, &ldquo;it&rdquo; refers to the running result as it is being computed, and generally refers to the result of the last operation.
-</p>
-<ol>
- <li>
-   Get the digits from the user.
-   You may assume they form a valid non-negative three-digit number which will not cause a division by zero to occur downstream.
- </li>
- <li>Add it to itself</li>
- <li>Multiply it by 80</li>
- <li>Add 450 to it</li>
- <li>Divide it by 5</li>
- <li>Subtract 10 from it</li>
- <li>Divide it by 4 (use bitwise operations)</li>
- <li>Subtract 20 from it</li>
- <li>Divide it by 8 (use bitwise operations)</li>
-</ol>
-
-<p>
- For full credit, your code <b>must</b> exit gracefully.
- This means that at the end of your program, you should use the <code>syscall</code> instruction to <code>exit</code>.
- A code snippet that performs this correctly is shown below:
-</p>
-<pre>
-li $v0, 10
-syscall
-</pre>
-
-<p>
- You may use any MIPS instructions or psuedoinstructions you want in order to implement this task.
- However, you will be somewhat restricted on exams.
- You may want to read the <a href="../../documentation/mips_instruction_policy.html">grading policies regarding MIPS assembly instructions</a> for more information.
-</p>
-
-<h4>Grading for the Code</h4>
-<ul>
- <li>80%: Correctness</li>
- <li>10%: Use of bitwise operations where requested (5% apiece)</li>
- <li>10%: Appropriate use of comments</li>
-</ul>
-
-<p>
- For the commenting, try to describe higher-level ideas, as opposed to merely saying what the instruction does (which will quickly become second-nature).
- For example, instead of saying something like &ldquo;shift left by 1&rdquo;, say something like &ldquo;multiply by 2&rdquo;.
- As another example, instead of saying &ldquo;move 4 into register <code>$vo</code>&rdquo;, say something like &ldquo;prepare to print&rdquo;.
- For now, we are going to be fairly lenient on commenting, and mostly just check to see if something is commented.
- This is to give you an opportunity to get some feedback on your commenting before things really get underway.
- Later on, the grading for commenting will get more strict, and may be weighted more heavily.
-</p>
-
-
 <h2>Turn in Everything Using <code>turnin</code></h2>
 <p>
  <b>If you partnered with someone, record the email address they are using for the class in <code>partner.txt</code>.</b>
@@ -465,7 +377,7 @@ Partner: foo@bar.com
 
 <p>Assuming you are in the <code>cs64/lab2</code> directory you created at the beginning, you can send in your answers via the following command:</p>
 <pre>
-turnin lab2@cs64 lab2problems.txt RandomCode.c DecodeCode.c spimtutorial.txt MagicMathTricks.asm partner.txt
+turnin lab2@cs64 lab2problems.txt RandomCode.c DecodeCode.c spimtutorial.txt partner.txt
 </pre>
 <p>
  You may turn in the same assignment up to 100 times, which is useful if you are working on it incrementally.
