@@ -46,9 +46,9 @@ due: 2018-01-29 23:59:59.00-7
 
     <b>Documentation:</b>
     <ul>
-      <li><a href="documentation/MIPS_reference_card.pdf">MIPS Reference Card</a></li>
-      <li><a href="documentation/spim.pdf">SPIM Manual</a></li>
-      <li><a href="documentation/mips_instruction_policy.html">Grading Policies Regarding MIPS Assembly Instructions</a></li>
+      <li><a href="./documentation/MIPS_reference_card.pdf">MIPS Reference Card</a></li>
+      <li><a href="./documentation/spim.pdf">SPIM Manual</a></li>
+      <li><a href="./documentation/mips_instruction_policy.html">Grading Policies Regarding MIPS Assembly Instructions</a></li>
     </ul>
     
     <hr>
