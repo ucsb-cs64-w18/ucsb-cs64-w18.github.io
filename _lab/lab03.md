@@ -69,7 +69,7 @@ mkdir lab3
 <p>Then go into that directory.</p>
 <p>Now copy over all of the files necessary for this week's tasks:</p>
 <pre>
-cp ~zmatni/public_html/cs64w17/labs/3/MedianNumbers.asm ~zmatni/public_html/cs64w17/labs/3/task1_tester.pl ~zmatni/public_html/cs64w17/labs/3/factorial.asm ~zmatni/public_html/cs64w17/labs/3/task2_tester.pl ~zmatni/public_html/cs64w17/labs/3/partner.txt .
+cp ~zmatni/public_html/cs64w18/labs/3/MedianNumbers.asm ~zmatni/public_html/cs64w18/labs/3/task1_tester.pl ~zmatni/public_html/cs64w18/labs/3/factorial.asm ~zmatni/public_html/cs64w18/labs/3/task2_tester.pl ~zmatni/public_html/cs64w18/labs/3/partner.txt .
 </pre>
 <p>
   Note the use of the trailing <code>.</code> in the above command, which stipulates that the specified files should be copied into the current directory.
