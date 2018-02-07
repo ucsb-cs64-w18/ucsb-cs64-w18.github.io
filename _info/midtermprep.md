@@ -1,6 +1,4 @@
-
-u:17
-
+---
 title: "Midterm Study Guide, CMPSC 64, Winter 2018"
 layout: handout
 ready: true
