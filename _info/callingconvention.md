@@ -1,5 +1,5 @@
 ---
-title: "MIPS Calling Convention - MUST READ, CMPSC 64, Winter 2018"
+title: "MIPS Calling Convention - MUST READ"
 layout: handout
 ready: true
 ---
