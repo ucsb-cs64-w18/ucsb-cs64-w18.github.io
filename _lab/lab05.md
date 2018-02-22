@@ -33,7 +33,7 @@ due: 2018-02-23 23:59:59.00-7
   <li><a href="../documentation/MIPS_reference_card.pdf">MIPS Reference Card</a></li>
   <li><a href="../documentation/spim.pdf">SPIM Manual</a></li>
   <li><a href="../documentation/mips_instruction_policy.html">Grading Policies Regarding MIPS Assembly Instructions</a></li>
-  <li><a href="../documentation/calling_convention/calling_convention.html">MIPS Calling Convention</a></li>
+  <li><a href="../documentation/callingconvention/calling_convention.html">MIPS Calling Convention</a></li>
 </ul>
 
 <hr>
@@ -56,7 +56,7 @@ due: 2018-02-23 23:59:59.00-7
 </p>
 
 <p>
-  Both of these tasks require you to follow the <a href="../documentation/calling_convention/calling_convention.html">MIPS calling convention</a>.
+  Both of these tasks require you to follow the <a href="../documentation/callingconvention/calling_convention.html">MIPS calling convention</a>.
   <b>Be sure to actually follow the calling convention; solutions which do not follow the MIPS calling convention will receive no credit!</b>
 </p>
   
