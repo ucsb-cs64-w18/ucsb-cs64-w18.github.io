@@ -45,8 +45,8 @@ due: 2018-02-23 23:59:59.00-7
 </p>
 
 <ul>
-  <li>Task 1: <a href="index.html#print_reverse">Implement the <code>PrintReverse</code> Function</a></li>
-  <li>Task 2: <a href="index.html#iterative_max">Implement the <code>IterativeMax</code> Function</a></li>
+  <li>Task 1: Implement the <code>PrintReverse</code> Function</a></li>
+  <li>Task 2: Implement the <code>IterativeMax</code> Function</a></li>
 </ul>
 
 <p>
