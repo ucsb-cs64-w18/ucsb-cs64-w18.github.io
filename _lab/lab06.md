@@ -26,8 +26,7 @@ due: 2018-03-02 23:59:59.00-7
 
 <b>Documentation:</b>
 <ul>
-  <li>Lecture slides for lectures 12 and 13 (Useful for Circuits)</li>
-  <li><a href="http://www.facstaff.bucknell.edu/mastascu/elessonshtml/Logic/Logic3.html">One Particular Online Reference for Karnaugh Maps</a> (others exist; Google is your friend!)</li>
+  <li>Lecture slides for lectures 12 and 13.</li>
 </ul>
 
 <hr>
