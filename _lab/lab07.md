@@ -47,7 +47,7 @@ mkdir lab7
 <p>Then go into that directory.</p>
 <p>Now copy over all of the files necessary for this week's tasks:</p>
 <pre>
-cp ~zmatni/public_html/cs64/labs/7/lab7problems.txt ~zmatni/public_html/cs64/labs/7/partner.txt .
+cp ~zmatni/public_html/cs64w18/labs/7/lab7problems.txt ~zmatni/public_html/cs64w18/labs/7/partner.txt .
 </pre>
 <p>
   Note the use of the trailing <code>.</code> in the above command, which stipulates that the specified files should be copied into the current directory.
