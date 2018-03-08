@@ -1,14 +1,14 @@
 ---
 layout: lab
 num: lab08
-ready: false
+ready: true
 desc: "Combinatorial + Sequential Logic Design"
 assigned: 2018-03-08 08:00:00.00-7
 due: 2018-03-16 23:59:59.00-7
 ---
 <h1>Lab 8: Combinatorial + Sequential Logic Design</h1>
 <hr>
-<p>Due Friday, March 16 at 11:59:59 PM</p>
+<p><font color='red'><b>Due Friday, March 16 (LAST DAY OF CLASSES OF THE QUARTER) at 11:59 PM</b></font></p>
 
 <h2>Goals for This Week</h2>
 <p>By the time you have completed this work, you should be able to:</p>
