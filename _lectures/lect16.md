@@ -1,6 +1,6 @@
 ---
 num: "lect16"
-desc: "Lecture #16 slides: Ethics in CS and the Societal Impact of CS"
+desc: "Lecture #16 slides: Finite State Machines"
 ready: false
 pdfurl: /lectures/CS64_Lecture16.pdf
 ---
