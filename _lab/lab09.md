@@ -10,7 +10,7 @@ due: 2018-03-16 23:59:59.00-7
 <hr>
 <p>Due Friday, March 16 at 11:59:59 PM</p>
 
-<p>**LINKS ARE NOT "LIVE" YET**</p>
+<p><font color="red">**LINKS ARE NOT "LIVE" YET**</font></p>
 
 <h2>Do the following in order (within each task). The object is to complete the online form questionnaires that are based on the material listed here.</h2>
 
