@@ -12,20 +12,18 @@ due: 2018-03-16 23:59:59.00-7
 
 <p>**LINKS ARE NOT "LIVE" YET**</p>
 
-<div markdown='1'>
 <h2>TASK 1: ETHICS</h2>
 <ol>
-<li>Read the IEEE Computer Society’s article [HERE](./IEEE_Article.pdf){: target="_blank"}.</li>
-<li>Read a collection of case studies on ethics [HERE](./Case_Studies.pdf){: target="_blank"}. Be prepared to answer questions on these in the next item.</li>
-<li>Go to the online form [HERE](https://XXXXX){: target="_blank"} and do TASK1 of this lab</li>
+<li>Read the IEEE Computer Society’s article <a href="./IEEE_Article.pdf" target="_blank">HERE</a>.</li>
+<li>Read a collection of case studies on ethics <a href="./CaseStudies.pdf" target="blank">HERE</a>. Be prepared to answer questions on these in the next item.</li>
+<li>Go to the online form <a href="https://XXXXXXXX" target="blank">HERE</a> and do TASK1 of this lab</li>
 </ol>
 
 <h2>TASK 2: IMPACT OF CS</h2>
 <ol>
-<li>View video of Megan Smith’s talk about the Impact of CS Worldwide [HERE](https://VIDEO URL){: target="_blank"}.</li>
-<li>Go to the online form [HERE](https://XXXXX){: target="_blank"} and do TASK2 of this lab</li>
+<li>View video of Megan Smith’s talk about the Impact of CS Worldwide <a href="https://VIDEOURL" target="blank">HERE</a>.</li>
+<li>Go to the online form <a href="https://XXXXXXXX" target="blank">HERE</a> and do TASK2 of this lab</li>
 </ol>
-</div>
 
 <hr>
 <blockquote>
