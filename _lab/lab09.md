@@ -12,6 +12,8 @@ due: 2018-03-16 23:59:59.00-7
 
 <p>**LINKS ARE NOT "LIVE" YET**</p>
 
+<h2>Do the following in order (within each task). The object is to complete the online form questionnaires that are based on the material listed here.</h2>
+
 <h2>TASK 1: ETHICS</h2>
 <ol>
 <li>Read the IEEE Computer Society’s article <a href="./IEEE_Article.pdf" target="_blank">HERE</a>.</li>
