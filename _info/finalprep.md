@@ -1,5 +1,5 @@
 ---
-title: "Final Exam Study Guide, CMPSC 64, Winter 2018"
+title: "0.NEW! Final Exam Study Guide, CMPSC 64, Winter 2018"
 layout: handout
 ready: true
 ---
