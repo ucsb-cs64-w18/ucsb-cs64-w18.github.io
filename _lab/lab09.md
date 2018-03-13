@@ -14,7 +14,7 @@ due: 2018-03-16 23:59:59.00-7
 
 <h2>Grading</h2>
 <p>
-  While this assignment is included along with the labs, this is only because it is expected to be completed during the week 10 - week 11 time, as with a typical lab.
+  While this assignment is included along with the labs, this is only because it is expected to be completed during the last week, as with a typical lab.
   Instead of being graded as a lab assignment, this counts towards overall 5% of your grade on the final exam.
   This grade is split up into two non-equal parts:
 </p>
