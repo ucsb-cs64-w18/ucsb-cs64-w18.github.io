@@ -10,8 +10,21 @@ due: 2018-03-16 23:59:59.00-7
 <hr>
 <p>Due Friday, March 16 at 11:59:59 PM</p>
 
-<h2>DESCRIPTION FORTHCOMING</h2>
-    
+<p>**LINKS ARE NOT "LIVE" YET**</p>
+
+<h2>TASK 1: ETHICS</h2>
+<ol>
+<li>Read the IEEE Computer Society’s article [HERE](./IEEE_Article.pdf){: target="_blank"}.</li>
+<li>Read a collection of case studies on ethics [HERE](./Case_Studies.pdf){: target="_blank"}. Be prepared to answer questions on these in the next item.</li>
+<li>Go to the online form [HERE](https://XXXXX){: target="_blank"} and do TASK1 of this lab</li>
+</ol>
+
+<h2>TASK 2: IMPACT OF CS</h2>
+<ol>
+<li>View video of Megan Smith’s talk about the Impact of CS Worldwide [HERE](https://VIDEO URL){: target="_blank"}.</li>
+<li>Go to the online form [HERE](https://XXXXX){: target="_blank"} and do TASK2 of this lab</li>
+</ol>
+
 <hr>
 <blockquote>
   <p><font size="1">
