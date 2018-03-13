@@ -12,6 +12,7 @@ due: 2018-03-16 23:59:59.00-7
 
 <p>**LINKS ARE NOT "LIVE" YET**</p>
 
+<div markdown='1'>
 <h2>TASK 1: ETHICS</h2>
 <ol>
 <li>Read the IEEE Computer Society’s article [HERE](./IEEE_Article.pdf){: target="_blank"}.</li>
@@ -24,6 +25,7 @@ due: 2018-03-16 23:59:59.00-7
 <li>View video of Megan Smith’s talk about the Impact of CS Worldwide [HERE](https://VIDEO URL){: target="_blank"}.</li>
 <li>Go to the online form [HERE](https://XXXXX){: target="_blank"} and do TASK2 of this lab</li>
 </ol>
+</div>
 
 <hr>
 <blockquote>
