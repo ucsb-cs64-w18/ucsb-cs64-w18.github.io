@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab09
-ready: false
+ready: true
 desc: "Ethics and Impact of CS"
 assigned: 2018-03-15 08:00:00.00-7
 due: 2018-03-16 23:59:59.00-7
@@ -9,8 +9,6 @@ due: 2018-03-16 23:59:59.00-7
 <h1>Lab 9: Ethics and Impact of CS</h1>
 <hr>
 <p>Due Friday, March 16 at 11:59:59 PM</p>
-
-<p><font color="red">**LINKS ARE NOT "LIVE" YET**</font></p>
 
 <h2>Grading</h2>
 <p>
