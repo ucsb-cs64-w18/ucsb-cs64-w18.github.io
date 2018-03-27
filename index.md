@@ -13,7 +13,7 @@ title: CS64, Winter 2018, zmatni
 <li><a href="{{item.url}}"  data-ajax="false">{{item.title }}</a></li>
 {% endfor %}
 </ul>
-<p><font color="red"><b>LAST DAY OF CLASS IS THURSDAY, MARCH 15th. WATCH FOR DUE DATES OF YOUR ASSIGNMENTS!</b></font></p>
+<p><font color="red" size="28"><b>THIS CLASS IS NOW CLOSED.<br/>MATERIAL HERE DOES NOT APPLY TO FUTURE QUARTERS.</b></font></p>
 <p>FINAL EXAM IS SET FOR: THURSDAY, MARCH 22nd from 4:00 PM thru 7:00 PM.</p>
 </div>
 
