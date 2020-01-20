@@ -355,10 +355,10 @@ jal 0x00400024 [main]
 <ul>
  <li>
    For understanding the MIPS instructions themselves, it may be helpful to consult the MIPS reference card in the front of the textbook.
-   A digital copy is also available <a href="../../documentation/MIPS_reference_card.pdf">here</a>.
+   A digital copy is also available <a href="./documentation/MIPS_reference_card.pdf">here</a>.
  </li>
  <li>For a basic understanding of how the <code>syscall</code> instruction works in SPIM (which is used by QtSpim), see <a href="https://www.doc.ic.ac.uk/lab/secondyear/spim/node8.html">this page</a>.</li>
- <li>For a detailed amount of information regarding SPIM (which is used by QtSpim), particularly the terminal interface, you may want to consult <a href="../../documentation/spim.pdf">this manual</a>.</li>
+ <li>For a detailed amount of information regarding SPIM (which is used by QtSpim), particularly the terminal interface, you may want to consult <a href="./documentation/spim.pdf">this manual</a>.</li>
  <li>
    For general background specific to QtSpim, a nice tutorial can be found <a href="https://www.lri.fr/~de/QtSpim-Tutorial.pdf">here</a>.
    Overall, there are a <i>lot</i> of QtSpim tutorials out there if you are interested; a quick Google search of &ldquo;qtspim tutorial&rdquo; reveals quite a bunch.
